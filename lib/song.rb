@@ -11,10 +11,10 @@ attr_accessor :name, :artist, :grenre
       @@song_count =+ 1
       @artist = artist
       @name = name
-      @genre = grenre
+      @genre = genre
       @@artists << @artist
       @@name << @name
-      @@grenre << @genre
+      @@genre << @genre
 
     end
 
