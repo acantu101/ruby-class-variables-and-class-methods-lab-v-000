@@ -20,7 +20,7 @@ attr_accessor :name, :artist, :genre
     end
 
     def self.count
-      @@song_count
+      @@count
     end
 
   def genre_count
