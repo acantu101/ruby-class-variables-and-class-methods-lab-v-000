@@ -34,7 +34,7 @@ attr_accessor :name, :artist, :genre
     @@genres.uniq
   end
 
-  def genre_count
+  def self.genre_count
     genre_count = Hash.new
 
     @@genres.each do |genre|
